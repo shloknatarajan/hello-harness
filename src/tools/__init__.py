@@ -1,9 +1,10 @@
 """Tool registry — maps tool names to callables and provides schema definitions."""
 
-from src.tools import read_file, grep, ls
+from src.tools import read_file, edit_file, grep, ls
 
 TOOLS = {
     "read_file": read_file,
+    "edit_file": edit_file,
     "grep": grep,
     "ls": ls,
 }
